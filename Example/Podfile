@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CVMathToolsLib_Example' do
+  pod 'CVMathToolsLib', :path => '../'
+
+  target 'CVMathToolsLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
